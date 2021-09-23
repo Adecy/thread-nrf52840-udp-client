@@ -74,12 +74,30 @@ Done
 
 ```
 
+## Debug
+
+```
+CONFIG_OPENTHREAD_FULL_LOGS=n
+CONFIG_OPENTHREAD_DEBUG=y
+CONFIG_OPENTHREAD_LOG_LEVEL_DEBG=n
+CONFIG_OPENTHREAD_LOG_LEVEL_INFO=y
+CONFIG_OPENTHREAD_L2_DEBUG=n
+CONFIG_OPENTHREAD_L2_DEBUG_DUMP_15_4=n
+CONFIG_OPENTHREAD_L2_DEBUG_DUMP_IPV6=n
+CONFIG_OPENTHREAD_L2_LOG_LEVEL_INF=n
+```
+
+![](./pics/rx_thread.png)
+![](./pics/send_udp_openthread_pkt.png)
+![](./pics/send_udp_pkt.png)
+
 # Todo
 
 - Waiting for the interface to be up
 - Factory reset make the application crash, maybe shell stack or workqueue stack is insufficient for the flash eraze ?
 
 ---
+
 
 # Things
 
