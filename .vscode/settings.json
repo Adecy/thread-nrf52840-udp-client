@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.asm": "avr",
+        "zephyr.h": "c",
+        "kernel.h": "c",
+        "errno.h": "c",
+        "kernel_includes.h": "c",
+        "kernel_version.h": "c",
+        "syscall.h": "c",
+        "openthread.h": "c",
+        "net_ip.h": "c",
+        "in.h": "c",
+        "socket.h": "c",
+        "if.h": "c",
+        "net_if.h": "c"
+    }
+}
